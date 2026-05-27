@@ -1,0 +1,13 @@
+{
+  "name": "appstore-scraper",
+  "version": "1.0.0",
+  "description": "App Store data scraper CLI — zero external dependencies, Node.js >= 12",
+  "main": "scripts/scrape.js",
+  "bin": {
+    "appstore-scraper": "scripts/scrape.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT"
+}

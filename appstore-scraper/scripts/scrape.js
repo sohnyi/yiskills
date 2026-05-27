@@ -30,13 +30,13 @@
 //   ① Node 版本检查（< 12 直接退出）
 //   ② AbortController polyfill（Node 12–14）
 //   ③ fetch polyfill（Node 12–17，使用内置 https/http）
-const { SORT, COLLECTION, CATEGORY } = require('./lib/constants');
-const { slimApp }                    = require('./lib/normalize');
+const { SORT, COLLECTION, CATEGORY } = require('./libs/constants');
+const { slimApp }                    = require('./libs/normalize');
 const {
   apiApp, apiRatings, apiSearch, apiReviews,
   apiList, apiDeveloper, apiSimilar, apiSuggest, apiVersionHistory,
-}                                    = require('./lib/store');
-const { apiBulkReviews, fetchReviewPages } = require('./lib/bulk');
+}                                    = require('./libs/store');
+const { apiBulkReviews, fetchReviewPages } = require('./libs/bulk');
 
 // ── 参数解析 ──────────────────────────────────────────────────────────────────
 
