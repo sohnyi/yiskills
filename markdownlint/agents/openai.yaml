@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdownlint"
+  short_description: "Lint and fix Markdown style issues"
+  default_prompt: "Use $markdownlint to check and fix Markdown style issues in this repository."
